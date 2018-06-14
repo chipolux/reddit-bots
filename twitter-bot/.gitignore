@@ -1,0 +1,17 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+dist
+build
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Project specific
+settings.json
+*.log
