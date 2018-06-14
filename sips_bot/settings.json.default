@@ -1,0 +1,23 @@
+{
+    "Reddit":
+    {
+        "Username": "",
+        "Password": "",
+        "Subreddit": "",
+        "UserAgent": "",
+        "BotOwner": "",
+        "RepostProtection": true
+    },
+    "YouTube":
+    {
+        "Username": ""
+    },
+    "Twitter":
+    {
+        "Username": "",
+        "ConsumerKey": "",
+        "ConsumerSecret": "",
+        "AccessKey": "",
+        "AccessSecret": ""
+    }
+}
