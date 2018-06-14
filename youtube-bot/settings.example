@@ -1,0 +1,45 @@
+# REMOVE THIS HEADER AND RENAME TO settings.json TO USE!
+# Also be sure to modify the contents of this file appropriately! :)
+#
+# youtube Section:
+#   api_key: You need to get an API key from google to use their Youtube Data API.
+#   channel: The name of the youtube channel, this will be converted into an ID for
+#            use with the gdata API.
+#   after: The timestamp of the last video posted, the bot will try to post videos
+#          newer than this timestamp. The timestamp structure is defined in the
+#          youtube data API docs.
+#
+# reddit Section:
+#   username: The username of the bot account, will be used to log in.
+#   password: The password of the bot account, will be used to log in.
+#   user_agent: The user agent the bot should use when talking to reddit.
+#               I've set it to the default recommended user agent, just
+#               change the bot name, version, and operator info.
+#   subreddit: The name of the subreddit to post to.
+#
+# logging Section:
+#   handle: The logging handle to use, useful if running multiple bots.
+#   level: The logging level to run at, accepts "error", "info", and "debug".
+#   path: The relative path of the log file to write to.
+#   rotation: The size in bytes to allow the log file to grow to before being
+#             rotated into an old_logs folder in the same directory as the script.
+#
+{
+    "youtube": {
+        "api_key": "just_an_api_key",
+        "channel": "TestChannel",
+        "after": "2014-07-10T17:00:01.000Z"
+    },
+    "reddit": {
+        "username": "example_bot",
+        "password": "example_password",
+        "user_agent": "example_bot/1.0 (Operated by /u/example_owner)",
+        "subreddit": "test"
+    },
+    "logging": {
+        "handle": "youtube_bot",
+        "level": "debug",
+        "path": "youtube_bot.log",
+        "rotation": 25600
+    }
+}

@@ -1,0 +1,11 @@
+*.py[cod]
+*.swp
+
+# Packages
+dist
+build
+
+# Project specific
+settings.json
+posted_videos.json
+*.log
