@@ -1,0 +1,21 @@
+# General
+*.py[cod]
+*.swp
+
+# C extensions
+*.so
+
+# Packages
+dist
+build
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Project specific
+settings.json
+old_posts.json
+*.log
+Report*.json
