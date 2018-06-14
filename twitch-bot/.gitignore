@@ -1,0 +1,10 @@
+*.py[cod]
+
+# Packages
+dist
+build
+
+# Project specific
+settings.json
+state.json
+*.log
